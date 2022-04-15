@@ -12,7 +12,6 @@ def cargar():
         alumnos[dni]=listamaterias
     return alumnos
 
-
 def listar(alumnos):
     for dni in alumnos:
         print("Dni del alumno",dni)
