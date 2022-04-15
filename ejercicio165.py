@@ -19,7 +19,6 @@ def listar(alumnos):
         for nota,materia in alumnos[dni]:
             print(materia,nota)
 
-
 def consulta_notas(alumnos):
     dni=int(input("Ingrese el dni a consultar:"))
     if dni in alumnos:
