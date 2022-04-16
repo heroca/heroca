@@ -15,7 +15,7 @@ def cargar():
 def listar(alumnos):
     for dni in alumnos:
         print("Dni del alumno",dni)
-        print("Materias que cursa y notas")
+        print("Materias que cursa y notas.")
         for nota,materia in alumnos[dni]:
             print(materia,nota)
 
